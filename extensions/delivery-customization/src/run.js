@@ -47,9 +47,9 @@ export function run(input) {
     }
   }
 
-  //console.log(input.cart.buyerIdentity === null)
-  //console.log(JSON.stringify(input.cart.buyerIdentity))
-  //console.log(JSON.stringify(input.cart.buyerIdentity?.purchasingCompany))
+  // console.log(input.cart.buyerIdentity === null)
+  // console.log(JSON.stringify(input.cart.buyerIdentity))
+  // console.log(JSON.stringify(input.cart.buyerIdentity?.purchasingCompany))
 
   if(renameOperations.length === 0) return NO_CHANGES;
 
